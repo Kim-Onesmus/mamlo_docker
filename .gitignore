@@ -1,5 +1,8 @@
 # Environment Variables
 .env
+README.md
+LICENSE
+.github
 
 # mounted volume
 sites
