@@ -24,16 +24,16 @@ variable "FRAPPE_REPO" {
     default = "/frappe"
 }
 
+variable "FRAPPE_REPO" {
+    default = "https://github.com/frappe/frappe"
+}
+
 variable "ERPNEXT_REPO" {
-    default = "/erpnext"
+    default = "https://github.com/frappe/erpnext"
 }
 
 variable "BENCH_REPO" {
     default = "https://github.com/frappe/bench"
-}
-
-variable "LATEST_BENCH_RELEASE" {
-    default = "latest"
 }
 
 # Bench image
